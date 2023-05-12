@@ -1,6 +1,6 @@
-# Project 4 - Evolution of Eletron Spin and Analysis of Thermodynamic Properties
+# Project 4 - Evolution of Electron Spin and Analysis of Thermodynamic Properties
 
-**Formal write up is located in this repository, named "Rafizadeh_WRITEUP.pdf"**
+**Formal write up is located in this repository, named "Rafizadeh_WRITEUP.pdf"** (currently revising some incorrect statements in background, will post this again soon)
 
 
 **IMPORTANT NOTE: Simulating spin evolution in crystal lattices is complex and can be done many different ways. This script uses Monte Carlo simulation, which is computationally taxing, combined with the fact that I am not great at writing efficient code makes these scripts incredibly inefficient. I have timed the scripts to take the following times to run:**
