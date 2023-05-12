@@ -137,6 +137,8 @@ if __name__ == "__main__":
     x_vals = range(10000)
     y_vals = np.random.random(10000)
 
+    
+    # lets visualize our uniform distribution to check its uniformity
     plt.plot(x_vals, y_vals, '.')  
     plt.savefig('UniformDistribution.png')
 
