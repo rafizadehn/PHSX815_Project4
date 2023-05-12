@@ -133,6 +133,12 @@ if __name__ == "__main__":
         nt = float(sys.argv[p+1])
 
     params = [nt, N, eqSteps, mcSteps, seed, n1, n2]
+    
+    x_vals = range(10000)
+    y_vals = np.random.random(10000)
+
+    plt.plot(x_vals, y_vals, '.')  
+    plt.savefig('UniformDistribution.png')
 
     # this creates the equilibrium condition that the calculations will
     # need to satisfy
