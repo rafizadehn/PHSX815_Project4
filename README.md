@@ -88,7 +88,7 @@ which is a wonderful demonstration of how these thermodynamic properties could c
 
 ## Sources
 
-Code was adapted and frankenseined from:
+Code was adapted and frankenstein-ed from:
 
 [Using Monte Carlo methods to study lattice structures.](https://towardsdatascience.com/monte-carlo-method-applied-on-a-2d-binary-alloy-using-an-ising-model-on-python-70afa03b172b)
 
