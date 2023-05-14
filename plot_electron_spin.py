@@ -127,10 +127,10 @@ if __name__ == "__main__":
         seed = int(sys.argv[p+1])
     if '-Natoms' in sys.argv:
         p = sys.argv.index('-Natoms')
-        N = float(sys.argv[p+1])
+        N = int(sys.argv[p+1])
     if '-Npoints' in sys.argv:
         p = sys.argv.index('-Npoints')
-        nt = float(sys.argv[p+1])
+        nt = int(sys.argv[p+1])
     
     E = []
     with open('energy.txt') as fp:
