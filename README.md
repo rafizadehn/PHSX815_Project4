@@ -1,7 +1,6 @@
 # Project 4 - Evolution of Electron Spin and Analysis of Thermodynamic Properties
 
-**Formal write up is located in this repository, named "Rafizadeh_WRITEUP.pdf"** (currently revising some incorrect statements in background, will post this again soon)
-
+**Formal write up is located in this repository, named "Rafizadeh_WRITEUP.pdf"** 
 
 **IMPORTANT NOTE: Simulating spin evolution in crystal lattices is complex and can be done many different ways. This script uses Monte Carlo simulation, which is computationally taxing, combined with the fact that I am not great at writing efficient code makes these scripts incredibly inefficient. I have timed the scripts to take the following times to run:**
 
@@ -87,4 +86,21 @@ In addition, I found some helpful scripts online that are able to simulate the e
 
 which is a wonderful demonstration of how these thermodynamic properties could change with time, or temperature. The very first plot, at T=0, shows the randomly generated uniform distribution used at the beginning for the Monte Carlo simulation.  
 
+## Sources
+
+Code was adapted and frankenseined from:
+
+[Using Monte Carlo methods to study lattice structures.](https://towardsdatascience.com/monte-carlo-method-applied-on-a-2d-binary-alloy-using-an-ising-model-on-python-70afa03b172b)
+
+[Extracting thermodynamic properties from Monte Carlo configuration simulations.](https://github.com/prtkm/ising-monte-carlo/blob/master/ising-monte-carlo.org)
+
+Sources of plots in writeup:
+
+[Experimentally measured magnetic properties.](https://doi.org/10.1007/s10751-019-1571-1)
+
+More information regarding magnetization:
+
+[Magnetic Susceptibility.](https://en.wikipedia.org/wiki/Magnetic_susceptibility)
+
+[Magnetization.](https://en.wikipedia.org/wiki/Magnetization)
 
